@@ -1,0 +1,59 @@
+--Project title--
+Netflix Movies & TV Shows Data Analysis
+
+--Project Description--
+This project analyzes the Netfliz dataset to explore trends in content type,
+release patterns.movie durations, TV show seasons, and overall platform growth.
+It includes data cleaning, preprocessing, visualization, and insights.
+
+--Dataset Information--
+Dataset: netflix_titles.csv
+Rows: ~6,000+
+Columns: title, director, cast, country, rating, date_added, duraion, etc.
+Source: Kaggle (Netflix Title Dataset)
+
+--Project workflow--
+1.Importing libraris
+2.Loading dataset
+3.Data cleaning and preprocessing
+    -Handling missing values
+    -Removing duplicates
+    -converting date format
+    -Extracting year & month
+4.Exploratory Data Analysis (6 graphs)
+5.key insights and summary  
+
+--Visualization--
+1. Bar chart - Movies vs TV Shows country
+2. Pie chart - Content type distribution
+3. Line chart - Yearly content growth
+4. Bar chart - Monthly content addition
+5. Histogram - Movie duration distribution
+6. Bar chart - TV show seasons country
+
+--key insights--
+- Netflix has more Movies than TV Shows.
+- Upload trend increased significantly after 2015.
+- Most movies are between 80–120 minutes.
+- TV Shows typically have 1–3 seasons.
+- Content is uploaded consistently every month.
+
+--Technologies Used--
+Python
+Pandas
+Matplotlib
+NumPy
+
+--How to Run the Project--
+1. Install required libraries:
+   pip install pandas matplotlib numpy
+
+2. Place netflix_titles.csv in the project folder
+
+3. Run:
+   python netflix_analysis.py
+
+--Conclusion--
+This analysis gives a clear overview of Netflix’s content strategy 
+and user consumption patterns.
+
