@@ -1,4 +1,4 @@
-# 🎬 Netflix Movies & TV Shows Data Analysis
+## 🎬 Netflix Movies & TV Shows Data Analysis
 
 ## 📌 Project Overview
 This project performs an in-depth analysis of the **Netflix Movies & TV Shows dataset** to uncover trends in content types, release patterns, movie durations, TV show seasons, and overall platform growth.
@@ -17,7 +17,7 @@ The analysis covers the **complete data analytics workflow**, including data cle
 ---
 ### 📸 Dashboard Preview
 
-![Listening History Dashboard](graps.png.png)
+![Listening History Dashboard](Graps.png.png)
 ## 📂 Dataset Information
 - **Dataset Name:** netflix_titles.csv  
 - **Source:** Kaggle – Netflix Titles Dataset  
