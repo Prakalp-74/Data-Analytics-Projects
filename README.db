@@ -1,59 +1,107 @@
---Project title--
-Netflix Movies & TV Shows Data Analysis
+# 🎬 Netflix Movies & TV Shows Data Analysis
 
---Project Description--
-This project analyzes the Netfliz dataset to explore trends in content type,
-release patterns.movie durations, TV show seasons, and overall platform growth.
-It includes data cleaning, preprocessing, visualization, and insights.
+## 📌 Project Overview
+This project performs an in-depth analysis of the **Netflix Movies & TV Shows dataset** to uncover trends in content types, release patterns, movie durations, TV show seasons, and overall platform growth.
 
---Dataset Information--
-Dataset: netflix_titles.csv
-Rows: ~6,000+
-Columns: title, director, cast, country, rating, date_added, duraion, etc.
-Source: Kaggle (Netflix Title Dataset)
+The analysis covers the **complete data analytics workflow**, including data cleaning, preprocessing, visualization, and insight generation, making it a **portfolio-ready data analytics project**.
 
---Project workflow--
-1.Importing libraris
-2.Loading dataset
-3.Data cleaning and preprocessing
-    -Handling missing values
-    -Removing duplicates
-    -converting date format
-    -Extracting year & month
-4.Exploratory Data Analysis (6 graphs)
-5.key insights and summary  
+---
 
---Visualization--
-1. Bar chart - Movies vs TV Shows country
-2. Pie chart - Content type distribution
-3. Line chart - Yearly content growth
-4. Bar chart - Monthly content addition
-5. Histogram - Movie duration distribution
-6. Bar chart - TV show seasons country
+## 🎯 Project Objectives
+- 📊 Analyze the distribution of Movies vs TV Shows
+- 📈 Study yearly and monthly content growth trends
+- ⏱ Understand movie duration patterns
+- 📺 Examine TV show season distributions
+- 🧠 Derive insights into Netflix’s content strategy
 
---key insights--
-- Netflix has more Movies than TV Shows.
-- Upload trend increased significantly after 2015.
-- Most movies are between 80–120 minutes.
-- TV Shows typically have 1–3 seasons.
-- Content is uploaded consistently every month.
+---
+### 📸 Dashboard Preview
 
---Technologies Used--
-Python
-Pandas
-Matplotlib
-NumPy
+![Listening History Dashboard](graps.png.png)
+## 📂 Dataset Information
+- **Dataset Name:** netflix_titles.csv  
+- **Source:** Kaggle – Netflix Titles Dataset  
+- **Rows:** 6,000+  
+- **Columns Include:**  
+  - title  
+  - director  
+  - cast  
+  - country  
+  - rating  
+  - date_added  
+  - duration  
+  - release_year  
+  - type  
 
---How to Run the Project--
+---
+
+## 🔄 Project Workflow
+1. 📦 Importing required libraries  
+2. 📥 Loading the dataset  
+3. 🧹 Data Cleaning & Preprocessing  
+   - Handling missing values  
+   - Removing duplicate records  
+   - Converting date formats  
+   - Extracting year and month from dates  
+4. 🔍 Exploratory Data Analysis (EDA)  
+   - Creation of 6 meaningful visualizations  
+5. 🧠 Key insights & summary  
+
+---
+
+## 📊 Visualizations Included
+1. 📊 Bar Chart – Movies vs TV Shows by Country  
+2. 🥧 Pie Chart – Content Type Distribution  
+3. 📈 Line Chart – Yearly Content Growth  
+4. 📊 Bar Chart – Monthly Content Addition  
+5. 📉 Histogram – Movie Duration Distribution  
+6. 📊 Bar Chart – TV Show Seasons by Country  
+
+---
+
+## 🔍 Key Insights
+- 🎥 Netflix hosts **more Movies than TV Shows**
+- 📈 Content uploads increased significantly **after 2015**
+- ⏱ Most movies fall within the **80–120 minutes** duration range
+- 📺 TV Shows usually have **1–3 seasons**
+- 📅 Content is added **consistently every month**
+
+---
+
+## 🛠 Technologies Used
+- 🐍 Python  
+- 🐼 Pandas  
+- 📊 Matplotlib  
+- 🔢 NumPy  
+
+---
+
+## ▶️ How to Run the Project
 1. Install required libraries:
+   
    pip install pandas matplotlib numpy
 
-2. Place netflix_titles.csv in the project folder
+2. Place `netflix_titles.csv` in the project directory  
 
-3. Run:
+3. Run the analysis script:
+   
    python netflix_analysis.py
 
---Conclusion--
-This analysis gives a clear overview of Netflix’s content strategy 
-and user consumption patterns.
+---
 
+## 🧠 Skills Demonstrated
+- Data cleaning & preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Data visualization & storytelling  
+- Trend analysis  
+- Insight generation  
+
+---
+
+## ✅ Conclusion
+This analysis provides a clear understanding of **Netflix’s content growth strategy**, content distribution, and viewing trends.  
+It highlights how data-driven insights can be used to understand platform expansion and content planning.
+
+---
+
+📌 *This project is ideal for showcasing Python-based data analysis skills in internships and entry-level data analyst roles.*
