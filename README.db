@@ -5,21 +5,24 @@ This project performs an in-depth analysis of the **Netflix Movies & TV Shows da
 
 The analysis covers the **complete data analytics workflow**, including data cleaning, preprocessing, visualization, and insight generation, making it a **portfolio-ready data analytics project**.
 
-
+---
 
 ## 🎯 Project Objectives
-- 📊 Analyze the distribution of Movies vs TV Shows
-- 📈 Study yearly and monthly content growth trends
-- ⏱ Understand movie duration patterns
-- 📺 Examine TV show season distributions
-- 🧠 Derive insights into Netflix’s content strategy
+- 📊 Analyze the distribution of Movies vs TV Shows  
+- 📈 Study yearly and monthly content growth trends  
+- ⏱ Understand movie duration patterns  
+- 📺 Examine TV show season distributions  
+- 🧠 Derive insights into Netflix’s content strategy  
 
 ---
-### 📸 Dashboard Preview
 
-![Listening History Dashboard](Graps.png)
+## 📸 Dashboard Preview
+![Netflix Analysis Dashboard](Graps.png)
+
+---
+
 ## 📂 Dataset Information
-- **Dataset Name:** netflix_titles.csv  
+- **Dataset Name:** `netflix_titles.csv`  
 - **Source:** Kaggle – Netflix Titles Dataset  
 - **Rows:** 6,000+  
 - **Columns Include:**  
@@ -60,11 +63,11 @@ The analysis covers the **complete data analytics workflow**, including data cle
 ---
 
 ## 🔍 Key Insights
-- 🎥 Netflix hosts **more Movies than TV Shows**
-- 📈 Content uploads increased significantly **after 2015**
-- ⏱ Most movies fall within the **80–120 minutes** duration range
-- 📺 TV Shows usually have **1–3 seasons**
-- 📅 Content is added **consistently every month**
+- 🎥 Netflix hosts **more Movies than TV Shows**  
+- 📈 Content uploads increased significantly **after 2015**  
+- ⏱ Most movies fall within the **80–120 minutes** range  
+- 📺 TV Shows usually have **1–3 seasons**  
+- 📅 Content is added **consistently every month**  
 
 ---
 
@@ -78,30 +81,5 @@ The analysis covers the **complete data analytics workflow**, including data cle
 
 ## ▶️ How to Run the Project
 1. Install required libraries:
-   
-   pip install pandas matplotlib numpy
-
-2. Place `netflix_titles.csv` in the project directory  
-
-3. Run the analysis script:
-   
-   python netflix_analysis.py
-
----
-
-## 🧠 Skills Demonstrated
-- Data cleaning & preprocessing  
-- Exploratory Data Analysis (EDA)  
-- Data visualization & storytelling  
-- Trend analysis  
-- Insight generation  
-
-
-
-## ✅ Conclusion
-This analysis provides a clear understanding of **Netflix’s content growth strategy**, content distribution, and viewing trends.  
-It highlights how data-driven insights can be used to understand platform expansion and content planning.
-
----
-
-📌 *This project is ideal for showcasing Python-based data analysis skills in internships and entry-level data analyst roles.*h
+```bash
+pip install pandas matplotlib numpy
