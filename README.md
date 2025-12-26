@@ -17,7 +17,7 @@ The analysis covers the **complete data analytics workflow**, including data cle
 ---
 
 ## 📸 Dashboard Preview
-![Netflix Analysis Dashboard](Graps.png)
+![Netflix Analysis Dashboard](Graphs.png)
 
 ---
 
@@ -83,3 +83,4 @@ The analysis covers the **complete data analytics workflow**, including data cle
 1. Install required libraries:
 ```bash
 pip install pandas matplotlib numpy
+
