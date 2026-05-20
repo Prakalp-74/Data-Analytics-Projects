@@ -1,18 +1,18 @@
-## 🎬 Netflix Movies & TV Shows Data Analysis
+##  Netflix Movies & TV Shows Data Analysis
 
-## 📌 Project Overview
+##  Project Overview
 This project performs an in-depth analysis of the **Netflix Movies & TV Shows dataset** to uncover trends in content types, release patterns, movie durations, TV show seasons, and overall platform growth.
 
 The analysis covers the **complete data analytics workflow**, including data cleaning, preprocessing, visualization, and insight generation, making it a **portfolio-ready data analytics project**.
 
 ---
 
-## 🎯 Project Objectives
-- 📊 Analyze the distribution of Movies vs TV Shows  
-- 📈 Study yearly and monthly content growth trends  
-- ⏱ Understand movie duration patterns  
-- 📺 Examine TV show season distributions  
-- 🧠 Derive insights into Netflix’s content strategy  
+##  Project Objectives
+-  Analyze the distribution of Movies vs TV Shows  
+-  Study yearly and monthly content growth trends  
+-  Understand movie duration patterns  
+-  Examine TV show season distributions  
+-  Derive insights into Netflix’s content strategy  
 
 ---
 
@@ -21,7 +21,7 @@ The analysis covers the **complete data analytics workflow**, including data cle
 
 ---
 
-## 📂 Dataset Information
+## Dataset Information
 - **Dataset Name:** `netflix_titles.csv`  
 - **Source:** Kaggle – Netflix Titles Dataset  
 - **Rows:** 6,000+  
@@ -38,48 +38,48 @@ The analysis covers the **complete data analytics workflow**, including data cle
 
 ---
 
-## 🔄 Project Workflow
-1. 📦 Importing required libraries  
-2. 📥 Loading the dataset  
-3. 🧹 Data Cleaning & Preprocessing  
+##  Project Workflow
+1.  Importing required libraries  
+2.  Loading the dataset  
+3.  Data Cleaning & Preprocessing  
    - Handling missing values  
    - Removing duplicate records  
    - Converting date formats  
    - Extracting year and month from dates  
-4. 🔍 Exploratory Data Analysis (EDA)  
+4.  Exploratory Data Analysis (EDA)  
    - Creation of 6 meaningful visualizations  
-5. 🧠 Key insights & summary  
+      Key insights & summary  
 
 ---
 
-## 📊 Visualizations Included
-1. 📊 Bar Chart – Movies vs TV Shows by Country  
-2. 🥧 Pie Chart – Content Type Distribution  
-3. 📈 Line Chart – Yearly Content Growth  
-4. 📊 Bar Chart – Monthly Content Addition  
-5. 📉 Histogram – Movie Duration Distribution  
-6. 📊 Bar Chart – TV Show Seasons by Country  
+##  Visualizations Included
+1.  Bar Chart – Movies vs TV Shows by Country  
+2.  Pie Chart – Content Type Distribution  
+3.  Line Chart – Yearly Content Growth  
+4.  Bar Chart – Monthly Content Addition  
+5.  Histogram – Movie Duration Distribution  
+6.  Bar Chart – TV Show Seasons by Country  
 
 ---
 
-## 🔍 Key Insights
-- 🎥 Netflix hosts **more Movies than TV Shows**  
-- 📈 Content uploads increased significantly **after 2015**  
-- ⏱ Most movies fall within the **80–120 minutes** range  
-- 📺 TV Shows usually have **1–3 seasons**  
-- 📅 Content is added **consistently every month**  
+##  Key Insights
+-  Netflix hosts **more Movies than TV Shows**  
+-  Content uploads increased significantly **after 2015**  
+-  Most movies fall within the **80–120 minutes** range  
+-  TV Shows usually have **1–3 seasons**  
+-  Content is added **consistently every month**  
 
 ---
 
-## 🛠 Technologies Used
-- 🐍 Python  
-- 🐼 Pandas  
-- 📊 Matplotlib  
-- 🔢 NumPy  
+##  Technologies Used
+-  Python  
+-  Pandas  
+-  Matplotlib  
+-  NumPy  
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 1. Install required libraries:
 ```bash
 pip install pandas matplotlib numpy
